@@ -1,4 +1,4 @@
-package pl.javastart.mavendemo;
+package pl.javastart.mavendemo.service;
 
 public class EulerService {
 

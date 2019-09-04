@@ -1,7 +1,9 @@
 package pl.javastart.mavendemo;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import pl.javastart.mavendemo.service.EulerService;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class EulerServiceTest {
     EulerService eulerService = new EulerService();
@@ -13,7 +15,7 @@ class EulerServiceTest {
 
         int result = eulerService.subtractionOfSquares(a);
 
-        Assertions.assertEquals(result, expectedResult);
+        assertEquals(expectedResult, result);
     }
 
     @Test
@@ -23,7 +25,7 @@ class EulerServiceTest {
 
         int result = eulerService.subtractionOfSquares(a);
 
-        Assertions.assertEquals(result, expectedResult);
+        assertEquals(expectedResult, result);
     }
 
     @Test
@@ -33,6 +35,6 @@ class EulerServiceTest {
 
         int result = eulerService.subtractionOfSquares(a);
 
-        Assertions.assertEquals(result, expectedResult);
+        assertEquals(expectedResult, result);
     }
 }
