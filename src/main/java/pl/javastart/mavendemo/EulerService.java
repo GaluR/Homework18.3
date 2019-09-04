@@ -1,6 +1,6 @@
-package pl.javastart.mavendemo.pl.javastart.mavendemo;
+package pl.javastart.mavendemo;
 
-public class Euler6Service {
+public class EulerService {
 
     public int subtractionOfSquares(int a){
         int sumOfSquares = 0;
